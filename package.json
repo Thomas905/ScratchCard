@@ -8,7 +8,9 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
+    "buffer": "^6.0.3",
     "canvas-confetti": "^1.6.0",
+    "fs": "^0.0.1-security",
     "scratchcard-js": "1.4.7"
   },
   "devDependencies": {
