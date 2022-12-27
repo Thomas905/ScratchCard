@@ -14,7 +14,7 @@ for (const object1 of data1) {
     // Add the corresponding object to the new mapping table
     matches.push({ object1, object2 });
 }
-const names = matches.map((item) => item.object1.name + " " + item.object2.email);
+const names = matches.map((item) =>  item.object2.id + " " + item.object1.name + " " + item.object2.email);
 
 const counts = {};
 

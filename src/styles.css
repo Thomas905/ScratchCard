@@ -1,6 +1,5 @@
-.sc__inner {
-    border: 5px solid black;
-}
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap');
+
 .sc__wrapper {
     display: block;
     width: 100%;

@@ -11,10 +11,7 @@ const sc = new ScratchCard("#js--sc--container", {
     imageForwardSrc:
         "https://i.imgur.com/IC1KpJp.jpg",
     htmlBackground: '' +
-        '<div class="sc__html-background">' +
-        '   <div class="sc__html-background__title">Bravo !</div>' +
-        '   <div class="sc__html-background__subtitle">Votre agence a scanné 100 codes</div>' +
-        '</div>',
+        '   <div class="h1 text-center m-5">XXX flyers ont été scannés à date !</div>',
     clearZoneRadius: 30,
     percentToFinish: 30, // When the percent exceeds 50 on touchend event the callback will be exec.
     callback: function () {
