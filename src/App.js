@@ -1,7 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from "./components/Home/Home";
 import NotFound from "./components/NotFound";
-import Parce from "./components/parce";
+import Parse from "./components/parse";
+import AgencyDetail from "./components/AgencyDetail";
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
           <div className="App">
               <Routes>
                   <Route path="/" element={<Home />} />
-                  <Route path="/parce" element={<Parce />} />
+                  <Route path="/parse" element={<Parse />} />
+                  <Route path="/agence/:id" element={<AgencyDetail />}  />
                   /* Error 404 */
                   <Route path="*" element={<NotFound />}  />
               </Routes>

@@ -13,8 +13,8 @@ const Home = () => {
     };
 
     return (
-        <div>
-            <nav className="d-flex">
+        <div className="h-100vh">
+            <nav className="d-flex ">
                 <img src="https://imgur.com/kydL87p.png" alt="merciii"></img>
                 <div className="w-100">
                     <h1 className="text-center pt-3 pb-3">CHALLENGE MERCIII du 1.12.2022 AU 28.02.2023</h1>
