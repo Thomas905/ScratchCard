@@ -1,5 +1,6 @@
 import React from 'react';
 import ScratchCard from 'react-scratchcard';
+import confetti from "canvas-confetti";
 
 const Home = () => {
     const settings = {
@@ -7,7 +8,7 @@ const Home = () => {
         height: 480,
         image: 'https://i.imgur.com/IC1KpJp.jpg',
         finishPercent: 50,
-        onComplete: () => console.log('The card is now clear!')
+        onComplete: () => confetti({particleCount: 150, spread: 60})
     };
 
     return (
