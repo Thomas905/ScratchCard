@@ -11,7 +11,7 @@ function App() {
               <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/parse" element={<Parse />} />
-                  <Route path="/agence/:id" element={<AgencyDetail />}  />
+                  <Route path="/:id" element={<AgencyDetail />}  />
                   /* Error 404 */
                   <Route path="*" element={<NotFound />}  />
               </Routes>
