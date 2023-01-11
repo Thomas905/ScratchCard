@@ -50,7 +50,7 @@ const AgencyDetail = () => {
             <p className="text-center h3"><i className="text-success">Grattez ce ticket pour le savoir !</i></p>
             <div className="d-flex justify-content-center p-5">
                 <ScratchCard {...settings} >
-                    <div className="h1 text-center m-5"><p className="text-warning">{ data.length }</p> flyers ont été scannés à date !</div>
+                    <div className="h1 text-center m-5"><p className="text-warning">{ data.length }</p> flyers ont été scannées à date !</div>
                 </ScratchCard>
             </div>
         </div>
