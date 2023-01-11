@@ -46,11 +46,11 @@ const AgencyDetail = () => {
                 <img src="https://i.imgur.com/qh8Zmmb.gif" alt="gif" className="gif"></img>
             </div>
             <h2 className="text-center pt-5" >Bonjour l'équipe { agency.name },</h2>
-            <h3 className="text-center" >combien de flyers ont été scannées dans votre agence ?<br /><br /></h3>
+            <h3 className="text-center" >combien de flyers ont été scannés dans votre agence ?<br /><br /></h3>
             <p className="text-center h3"><i className="text-success">Grattez ce ticket pour le savoir !</i></p>
             <div className="d-flex justify-content-center p-5">
                 <ScratchCard {...settings} >
-                    <div className="h1 text-center m-5"><p className="text-warning">{ data.length }</p> flyers ont été scannées à date !</div>
+                    <div className="h1 text-center m-5"><p className="text-warning">{ data.length }</p> flyers ont été scannés à date !</div>
                 </ScratchCard>
             </div>
         </div>
